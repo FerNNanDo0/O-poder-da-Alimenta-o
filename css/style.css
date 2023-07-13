@@ -1,0 +1,297 @@
+#body-home, #body-contato {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f7f7f7;
+    text-align: center;
+}
+
+/* topo */
+#avatar {
+    border: 2px solid #f7f7f7; 
+    margin-top: -40px;
+}
+#capa {
+    width: 200%;
+}
+
+/* textos */
+#div-titulo h1 {
+    /* font-family: "Sofia", sans-serif; */
+    /* font-family: "Audiowide", sans-serif; */
+    font-family: "Trirong", serif;
+    text-shadow: 3px 3px 3px #ababab;
+    text-align: center;
+    font-weight: bold;
+    /* font-size: 2em; */
+    margin: 0.67em 0;
+}
+#div-titulo h4 {
+    text-align: center;
+    color: #696969;
+    font-weight: bold;
+}
+
+/* navegação */
+#naveg-ul {
+    background: #159cb0 url(../imgs/fundo-horizontal.png) repeat-x center;
+    width: 194px;
+    display: flex;
+    margin-left: 1.5em;
+    border: 1px solid #159cb0;
+    border-radius: 3px;
+    text-indent: 3.4px;
+    text-align: center;
+}
+
+#nav-li {
+    background: url(../imgs/divisor.png) repeat-y left top;
+}
+.naveg-link {
+    padding: 8px 11px;
+    color: white;
+    line-height: 1.5em;
+    list-style: none;
+    margin-left: 0.1px;
+    margin-right: 0.1px;
+    /* border: 1px solid red; */
+}
+.naveg-link:hover {
+    color: black;
+    text-decoration: none;
+    background: #79dce9e5;
+    border: 1px solid #159cb0;
+    border-radius: 3px;
+}
+#primeiro {
+    background: none;
+}
+#body-home nav li #home,
+#body-contato nav li #contato {
+    color: rgb(3, 3, 37);
+    background: #79dce9e5;
+    border: 1px solid #159cb0;
+    border-radius: 3px;
+}
+
+
+/* conteudos */
+section {
+    background: white;
+    /* width: 98%; */
+    margin-bottom: 10px;
+    box-sizing: border-box;
+
+    /* arredondamento com border-radius */
+    -webkit-border-radius: 7px 7px;
+    -moz-border-radius: 7px 7px;
+    border-radius: 7px 7px;
+    border: 1px solid #e3e3e3;
+    padding: 10px;
+}
+
+/* config das imgs */
+section img {
+    -webkit-border-radius: 7px 7px;
+    -moz-border-radius: 7px 7px;
+    border-radius: 7px 7px;
+    width: 600px;
+    height: 360px;
+    border: 1px solid white;
+    text-align: center;
+    padding-bottom: 4px;
+}
+
+/* texto dos conteudos */
+section h3 {
+    color: #444444;
+    padding-bottom: 5px;
+    text-align: start;
+}
+section p {
+    color: #1a1a1ac9;
+    text-align: start;
+}
+
+/* conteudo areao de contato */
+section span {
+    margin-bottom: 8px;
+    position: relative;
+    display: block; 
+    color: #113c8b;
+    text-align: start;
+}
+section span #label {
+    font-family: none;
+    font: 20px bold;
+    color: black;
+    margin-left: 10px;
+    text-align: start;
+}
+
+/* Rodape */
+footer {
+    width: 250px;
+    text-align: center;
+    color: #494949;
+    margin-bottom: 15px;
+    /* margin-left: 520px; */
+}
+footer li a {
+    color: rgb(190, 190, 235);
+    background-color: #6d6d6d;
+    border: 2px solid rgb(49, 49, 49);
+    border-radius: 10px;
+    text-align: center;
+}
+footer li a:hover {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #494949;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    #div-titulo h1 {
+        font-size: 0.9em;
+    }
+    #div-titulo h4 {
+        font-size: 0.8em;
+    }
+    #avatar {
+        width: 90px;
+        height: 90px;
+    }
+    #capa {
+        height: 200px;
+    }
+    /* conteudo geral */
+    #conteudo-geral {
+        margin-right: 1%; 
+        margin-left: 1%;
+    }
+    /* Rodape */
+    footer {
+        margin-left: 23%;
+        text-align: center;
+    }
+    footer ul li {
+        text-align: center;
+        width: 150px;
+        margin-left: 20%;
+        padding-bottom: 5px;
+    }
+}
+
+/* Small devices (landscap phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    #div-titulo h1 {
+        font-size: 1em;
+    }
+    #div-titulo h4 {
+        font-size: 1em;
+    }
+    #avatar {
+        width: 99px;
+        height: 99px;
+    }
+    #capa {
+        height: 250px;
+    }
+    /* conteudo geral */
+    #conteudo-geral {
+        margin-right: 7.5%; 
+        margin-left: 7.5%;
+    }
+    /* Rodape */
+    footer {
+        margin-left: 20%;
+        margin: 0;
+        padding: 0;
+    }
+    footer ul li {
+        width: 150px;
+        margin-left: 20%;
+        padding-bottom: 5px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    #div-titulo h1 {
+        font-size: 1.4em;
+    }
+    #div-titulo h4 {
+        font-size: 1.2em;
+    }
+    #avatar {
+        width: 110px;
+        height: 110px;
+    }
+    #capa {
+        height: 290px;
+    }
+    /* conteudo geral */
+    #conteudo-geral {
+        margin-right: 15%; 
+        margin-left: 15%;
+    }
+    /* Rodape */
+    footer {
+        margin-left: 35%;
+    }
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    #div-titulo h1 {
+        font-size: 2em;
+    }
+    #div-titulo h4 {
+        font-size: 1.4em;
+    }
+    #avatar {
+        width: 120px;
+        height: 120px;
+    }
+    #capa {
+        height: 330px;
+    }
+    /* conteudo geral */
+    #conteudo-geral {
+        margin-right: 15%; 
+        margin-left: 15%;
+    }
+     /* Rodape */
+     footer {
+        margin-left: 39%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    #div-titulo h1 {
+        font-size: 2.2em;
+    }
+    #div-titulo h4 {
+        font-size: 1.4em;
+    }
+    #avatar {
+        width: 130px;
+        height: 130px;
+    }
+    #capa {
+        height: 340px;
+    }
+    /* conteudo geral */
+    #conteudo-geral {
+        margin-right: 15%; 
+        margin-left: 15%;
+    }
+     /* Rodape */
+     footer {
+        margin-left: 40%;
+    }
+}
