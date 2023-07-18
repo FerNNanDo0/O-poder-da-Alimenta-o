@@ -113,18 +113,14 @@ section p {
 
 /* conteudo areao de contato */
 section span {
-    margin-bottom: 8px;
     position: relative;
     display: block; 
     color: #113c8b;
-    text-align: start;
 }
 section span #label {
     font-family: none;
     font: 20px bold;
     color: black;
-    margin-left: 10px;
-    text-align: start;
 }
 
 /* Rodape */
@@ -264,7 +260,7 @@ footer li a:hover {
         height: 120px;
     }
     #capa {
-        height: 330px;
+        height: 320px;
     }
     /* conteudo geral */
     #conteudo-geral {
@@ -293,7 +289,7 @@ footer li a:hover {
         height: 130px;
     }
     #capa {
-        height: 340px;
+        height: 320px;
     }
     /* conteudo geral */
     #conteudo-geral {
