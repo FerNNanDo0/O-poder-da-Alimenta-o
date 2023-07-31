@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
@@ -71,6 +72,9 @@
                       <a class="naveg-link" id="home" href="index.html">&nbsp;Início&nbsp;</a>
                     </li>
                     <li id="nav-li">
+                      <a class="naveg-link" id="sobre" href="sobre.html">Sobre</a>
+                    </li>
+                    <li id="nav-li">
                       <a class="naveg-link" id="contato" href="contato.html">Contato</a>
                     </li>
                   </ul>
@@ -85,12 +89,24 @@
         <!-- Fim do topo -->
 
         <!-- Inicio do conteudo -->
-        <div class="row pt-1" id="conteudo-geral">
+        <div class="row pt-4" id="conteudo-geral">
           <div class="col col-12">  
             <section>
+              <div>
+                <h3 class="text-center">Contato</h3>
+                <p class="texto text-black">
+                  Se você tiver dúvidas, sugestões ou quiser compartilhar sua experiência conosco,
+                  fique à vontade para entrar em contato. Estamos sempre ansiosos para ouvir nossos
+                  leitores e melhorar constantemente nosso conteúdo. <br><br>
+                  <b>Lembre-se</b>, "cuidar da sua alimentação é investir em sua saúde e bem-estar." <br><br>
+                  Estamos aqui para guiá-lo em sua jornada em busca de uma vida mais produtiva, 
+                  energética e saudável através dos alimentos. <br><br>
+                  Agradecemos por estar aqui e esperamos que você encontre em nosso site
+                  informações valiosas para melhorar sua qualidade de vida.
+                </p>
+              </div>
 
               <div class="row">
-
                 <div class="col-6">
                   <span>
                     <label id="label">Email:</label>
@@ -104,19 +120,17 @@
                     <time style="font-size: 12px; margin-top:3.5px">07/23/2023</time>
                   </span>
                 </div>
-
               </div>
-
             </section>
           </div>
         </div>
         <!-- Fim do conteudo -->
 
-        <!-- Inicio do rodapé -->
-        <footer>
+        <!-- Inicio do rodapé class="align-content-center" -->
+        <footer class="container">
           <div class="row">
             <div class="col-12">
-              <p>&copy; &nbsp; Alimentação Saudável 2023 </p>
+              <h6>&copy; &nbsp; Alimentação Saudável 2023 </h6>
 
               <!-- rede social -->
               <div>
@@ -133,7 +147,6 @@
         </footer>
         <!-- Fim do rodapé -->
 
-
         <!-- JavaScript (Opcional) -->
         <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
@@ -147,6 +160,17 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
           integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" 
           crossorigin="anonymous">
+        </script>
+
+        <!-- tag do google -->
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11246070064"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'AW-11246070064');
         </script>
     </body>
 </html>
